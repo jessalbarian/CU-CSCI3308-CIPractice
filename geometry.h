@@ -10,11 +10,14 @@
 
 #include <stdbool.h>
 
+
 /* 2D Coordinate Struct */
 typedef struct coord_2d {
     double x;
     double y;
 } coord_2d_t;
+
+double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const coord_2d_t* c);
 
 /* Return the distance between two 2D coordinates */
 double coord_2d_dist(const coord_2d_t* a, const coord_2d_t* b);

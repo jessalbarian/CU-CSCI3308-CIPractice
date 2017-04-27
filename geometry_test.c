@@ -15,6 +15,8 @@
 
 #include "geometry.h"
 
+
+
 /* coord_2d_eq Test */
 START_TEST(test_2d_eq)
 {
